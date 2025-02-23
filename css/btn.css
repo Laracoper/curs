@@ -19,3 +19,7 @@
 .btn-link:hover {
     color: aliceblue;
 }
+
+.w-btn{
+    width: 140px;
+}

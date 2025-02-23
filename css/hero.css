@@ -39,3 +39,12 @@
 .desc-d {
     margin-bottom: 50px;
 }
+
+@media (max-width:767.98px) {
+    .desc-title {
+        font-size: 47px;
+    }
+    .block-desc {
+        padding-top: 10px;
+    }
+}
