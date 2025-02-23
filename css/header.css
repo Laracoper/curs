@@ -1,0 +1,7 @@
+.header {
+    background-color: var(--bg-color);
+}
+
+.image-size{
+    max-width: 40px;
+}

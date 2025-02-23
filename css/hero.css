@@ -1,0 +1,41 @@
+.hero {
+    position: relative;
+
+}
+
+.bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.desc {
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.desc-title {
+    font-size: 67px;
+    font-weight: 700;
+    color: var(--bg-btn);
+    margin-bottom: 50px;
+}
+
+.desc-btn {
+    background-color: var(--bg-btn);
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 25px ;
+    border-radius: 50px;
+}
+
+.desc-d {
+    margin-bottom: 50px;
+}

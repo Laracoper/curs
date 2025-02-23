@@ -1,0 +1,33 @@
+@import url(header.css);
+@import url(btn.css);
+@import url(hero.css);
+@import url(about.css);
+@import url(form.css);
+
+:root {
+    --bg-color: #FEF6F0;
+    --card-color:#FEF7F5;
+    --bg-input:#E8E1D8;
+    --bg-btn:#E66A71;
+    --bg-download-btn:#A09DA3;
+}
+
+body {
+    background-color: var(--card-color);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fz-68{
+    font-size: 68px;
+}
+
+.fz-56{
+    font-size: 56px;
+}
+
+.phone{
+    text-decoration: none;
+    color: #2e2e2e;
+}

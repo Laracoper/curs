@@ -1,0 +1,21 @@
+.btn-b {
+    background-color: var(--bg-btn);
+    color: aliceblue;
+}
+
+.btn-border{
+    border: none;
+    padding: 10px 25px;
+}
+
+.btn-link {
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: var(--bg-btn);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: aliceblue;
+}
