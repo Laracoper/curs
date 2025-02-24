@@ -15,64 +15,85 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                    <div class="logo d-flex">
-                        <img class="image-size" src="img/logo.png" alt="logo">
-                        <a class="navbar-brand" href="#">Lotos</a>
+    <div class="wrap">
+        <header class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <div class="logo d-flex">
+                            <img class="image-size" src="img/logo.png" alt="logo">
+                            <a class="navbar-brand" href="/">Lotos</a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="/">Главная</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="/curs.html">Каталог</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="/register.html">Зарегестрироваться</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class=" btn-link" href="/auth.html">Войти</a>
+                                </li>
+                            </ul>
+                            <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="#">Главная</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="#">Каталог</a>
+                                </li>
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="#">Зарегестрироваться</a>
+                                </li>
+                            </ul> -->
+                            <!-- <form class="d-flex" role="search">
+    
+                                <button class="btn-border btn-b rounded-pill" type="submit">войти</button>
+                            </form> -->
+                        </div>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">Главная</a>
-                            </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">Каталог</a>
-                            </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">Зарегестрироваться</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
+                </nav>
+            </div>
 
-                            <button class="btn-border btn-b rounded-pill" type="submit">войти</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-    </header>
-    <main class="main">
-        <section class="curs container py-5">
-            <h3 class="text-center fz-56">Наши курсы</h3>
-            <p class="text-center mb-5">Откройте для себя наш разнообразный ассортимент академических и внеклассных
-                занятий, разработанных специально для того, чтобы помочь вашему ребенку преуспеть</p>
-                <div class="carusel-wrap d-flex gap-5">
-                    <div class="carusel-box">
-                        <img src="img/s.jpg" class="d-block w-100 mb-3" alt="">
+        </header>
+        <main class="main">
+            <section class="curs container py-5 curs-b">
+                <h3 class="text-center fz-56">Наши курсы</h3>
+                <p class="text-center mb-5">Откройте для себя наш разнообразный ассортимент академических и внеклассных
+                    занятий, разработанных специально для того, чтобы помочь вашему ребенку преуспеть</p>
+                <div class=" d-flex gap-4 flex-wrap justify-content-center">
+                    <div class="curc-block" style="width: 18rem;">
+                        <div class="img-c mb-3">
+                            <a href="/card.html"><img src="img/s.jpg" class="mb-3" alt=""></a>
+                        </div>
                         <h5 class="text-center">Математика</h5>
                         <p>Данный курс предназначен для изучения основных понятий и методов математики. Он
                             охватывает такие темы, как алгебра, геометрия, тригонометрия, математический анализ
                             и
                             теория вероятностей.</p>
                     </div>
-                    <div class="carusel-box">
-                        <img src="img/s2.jpg" class="d-block w-100 mb-3" alt="">
+                    <div class="curc-block" style="width: 18rem;">
+                        <div class="img-c mb-3">
+                            <a href="/card.html"><img src="img/s2.jpg" class=" mb-3" alt=""></a>
+                        </div>
                         <h5 class="text-center">Английский язык</h5>
                         <p> Этот курс предназначен для того, чтобы познакомить студентов с основами английского
                             языка. Он охватывает такие темы, как грамматика, словарный запас, произношение и
                             понимание прочитанного на английском языке.</p>
                     </div>
-                    <div class="carusel-box">
-                        <img src="img/s3.jpg" class="d-block w-100 mb-3" alt="">
+                    <div class="curc-block" style="width: 18rem;">
+                        <div class="img-c mb-3">
+                            <a href="/card.html"><img src="img/s3.jpg" class=" mb-3" alt=""></a>
+                        </div>
                         <h5 class="text-center">испанский язык</h5>
                         <p>Этот курс предназначен для того, чтобы познакомить вас с миром программирования. Вы
                             познакомитесь с основами программирования, переменными, условными выражениями,
@@ -80,14 +101,16 @@
                             функциями и структурами данных.</p>
                     </div>
                 </div>
-        </section>
-    </main>
-    <footer class="footer container">
-        <div class="data d-flex justify-content-between">
-            <a class="phone " href="tel:+7 939 346 32 54">+7 939 346 32 54</a>
-            <p class="d-inline"> ©Кисляков Марсель</p>
-        </div>
-    </footer>
+            </section>
+        </main>
+        <footer class="footer container">
+            <div class="data d-flex justify-content-between">
+                <a class="phone " href="tel:+7 939 346 32 54">+7 939 346 32 54</a>
+                <p class="d-inline"> ©Кисляков Марсель</p>
+            </div>
+        </footer>
+    </div>
+
     <script src="js/bootstrap.min.js"></script>
 </body>
 
